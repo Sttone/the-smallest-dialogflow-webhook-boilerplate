@@ -28,7 +28,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/health', (req, res) => {
-  res.send('Coucou hibou coucou! bite')
+  res.send('Coucou hibou coucou!')
 });
 
 let port = process.env.PORT;
